@@ -1,0 +1,17 @@
+div {
+  border: 1px solid blue;
+}
+
+.logo {
+  background: linear-gradient(180deg, #00FFFF 0%, #AA96CA 46.35%, #FF6B98 100%);
+  transform: rotate(-90deg);
+  width: 75px;
+  height: 75px;
+  border-radius: 200px;
+}
+
+.navbar-light .navbar-nav .active>.nav-link {
+  color: #B6A1C4 !important;
+}
+
+/*# sourceMappingURL=main.css.map */
