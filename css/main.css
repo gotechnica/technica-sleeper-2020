@@ -62,10 +62,9 @@ div {
   width: 100%;
 }
 
-.past-link img:hover {
+.past-link:hover img {
   filter: brightness(.8);
   transition: .3s ease;
-
 }
 
 
