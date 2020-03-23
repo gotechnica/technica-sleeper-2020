@@ -7,11 +7,16 @@ div {
   transform: rotate(-90deg);
   width: 75px;
   height: 75px;
-  border-radius: 200px;
+  border-radius: 50px;
 }
 
-.navbar-light .navbar-nav .active>.nav-link {
-  color: #B6A1C4 !important;
+.nav-link {
+  color: #B6A1C4;
+}
+
+.nav-link:hover, .nav-link:active {
+  color: #B6A1C4;
+  filter: brightness(1.2);
 }
 
 /*# sourceMappingURL=main.css.map */
