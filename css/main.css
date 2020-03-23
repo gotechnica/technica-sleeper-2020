@@ -3,8 +3,7 @@ div {
 }
 
 .logo {
-  background: linear-gradient(180deg, #00FFFF 0%, #AA96CA 46.35%, #FF6B98 100%);
-  transform: rotate(-90deg);
+  background: linear-gradient(90deg, #00FFFF 0%, #AA96CA 46.35%, #FF6B98 100%);
   width: 75px;
   height: 75px;
   border-radius: 50px;
@@ -19,4 +18,14 @@ div {
   filter: brightness(1.2);
 }
 
+.email-form {
+  background: linear-gradient(90deg, #00FFFF 0%, #AA96CA 46.35%, #FF6B98 100%);
+  padding: 2px;
+}
+
+.btn {
+  background-color: transparent;
+  border: none;
+  color: white;
+}
 /*# sourceMappingURL=main.css.map */
