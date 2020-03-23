@@ -18,6 +18,11 @@ div {
   filter: brightness(1.2);
 }
 
+.heading {
+  text-align: center;
+  color: #FF6B98;
+}
+
 .email-form {
   background: linear-gradient(90deg, #00FFFF 0%, #AA96CA 46.35%, #FF6B98 100%);
   padding: 2px;
@@ -28,4 +33,19 @@ div {
   border: none;
   color: white;
 }
+
+.social {
+  padding-top: 10px;
+}
+
+.social-link {
+  display: block;
+  background: #B6A1C4;
+  width: 35px;
+  height: 35px;
+  border-radius: 50px;
+}
+
+
+
 /*# sourceMappingURL=main.css.map */
