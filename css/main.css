@@ -19,7 +19,6 @@ div {
 }
 
 .heading {
-  text-align: center;
   color: #FF6B98;
 }
 
@@ -46,6 +45,35 @@ div {
   border-radius: 50px;
 }
 
+.main {
+  margin-top: 50px;
+  padding-left: 100px;
+  padding-right: 100px;
+}
 
+.past-link {
+  display: block;
+  position: relative;
+  margin-bottom: 30px;
+}
+
+.past-link img {
+  height: 300px;
+  width: 100%;
+}
+
+.past-link img:hover {
+  filter: brightness(.8);
+  transition: .3s ease;
+
+}
+
+
+.overlay {
+  position: absolute;
+  top: 7%;
+  left: 3%;
+  color: white;
+}
 
 /*# sourceMappingURL=main.css.map */
