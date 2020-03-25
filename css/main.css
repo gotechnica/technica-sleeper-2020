@@ -59,8 +59,8 @@
 
 .main {
   margin-top: 50px;
-  padding-left: 200px;
-  padding-right: 200px;
+  padding-left: 15%;
+  padding-right: 15%;
 }
 
 .past-link {
@@ -72,6 +72,7 @@
 .past-link img {
   height: 300px;
   width: 100%;
+  object-fit: cover;
 }
 
 .past-link:hover img {
@@ -100,5 +101,9 @@
   .main {
     padding-left: 0px;
     padding-right: 0px;
+  }
+
+  .heading {
+    text-align: center;
   }
 }
