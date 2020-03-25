@@ -97,7 +97,7 @@
   margin-left: -15px !important;
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 575px) {
   h1 {
     font-size: 1.75rem;
   }
@@ -108,6 +108,11 @@
 
   h3 {
     font-size: 1.25rem;
+  }
+
+  .email-form {
+    width: 100%;
+    text-align: center;
   }
 
   .main {
