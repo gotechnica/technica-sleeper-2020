@@ -1,0 +1,88 @@
+.logo {
+  background: linear-gradient(90deg, #00FFFF 0%, #AA96CA 46.35%, #FF6B98 100%);
+  width: 75px;
+  height: 75px;
+  border-radius: 50px;
+}
+
+.nav-link {
+  color: #B6A1C4;
+}
+
+.nav-link:hover, .nav-link:active {
+  color: #B6A1C4;
+  filter: brightness(1.2);
+}
+
+.heading {
+  color: #FF6B98;
+}
+
+.email-form {
+  background: linear-gradient(90deg, #00FFFF 0%, #AA96CA 46.35%, #FF6B98 100%);
+  padding: 2px;
+}
+
+.btn {
+  background-color: transparent;
+  border: none;
+  color: white;
+}
+
+.social {
+  padding-top: 10px;
+}
+
+.social-link {
+  display: block;
+  background: #B6A1C4;
+  width: 35px;
+  height: 35px;
+  border-radius: 50px;
+}
+
+.main {
+  margin-top: 50px;
+  padding-left: 200px;
+  padding-right: 200px;
+}
+
+.past-link {
+  display: block;
+  position: relative;
+  margin-bottom: 30px;
+}
+
+.past-link img {
+  height: 300px;
+  width: 100%;
+}
+
+.past-link:hover img {
+  filter: brightness(.8);
+  transition: .3s ease;
+}
+
+.overlay {
+  position: absolute;
+  top: 7%;
+  left: 3%;
+  color: white;
+}
+
+.footer {
+  height: 50px;
+  line-height: 50px;
+  background: linear-gradient(90deg, #00FFFF 0%, #AA96CA 46.35%, #FF6B98 100%);
+  text-align: center;
+  color: white;
+  width: 100vw;
+  margin-left: -15px !important;
+}
+
+@media only screen and (max-width: 600px) {
+  .main {
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+}
