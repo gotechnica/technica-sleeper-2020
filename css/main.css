@@ -1,8 +1,12 @@
 .logo {
   background: linear-gradient(90deg, #00FFFF 0%, #AA96CA 46.35%, #FF6B98 100%);
-  width: 75px;
-  height: 75px;
+  width: 50px;
+  height: 50px;
   border-radius: 50px;
+}
+
+.nav-item {
+  margin-left: 20px;
 }
 
 .nav-link {
