@@ -98,6 +98,18 @@
 }
 
 @media only screen and (max-width: 600px) {
+  h1 {
+    font-size: 1.75rem;
+  }
+
+  h2 {
+    font-size: 1.50rem;
+  }
+
+  h3 {
+    font-size: 1.25rem;
+  }
+
   .main {
     padding-left: 0px;
     padding-right: 0px;
