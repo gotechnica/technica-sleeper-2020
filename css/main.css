@@ -14,13 +14,25 @@
   filter: brightness(1.2);
 }
 
+.intro {
+  padding-top: 50px;
+}
+
 .heading {
   color: #FF6B98;
 }
 
+.form-inline {
+  padding-top: 20px;
+}
+
 .email-form {
   background: linear-gradient(90deg, #00FFFF 0%, #AA96CA 46.35%, #FF6B98 100%);
-  padding: 2px;
+  padding: 5px;
+}
+
+#email-input {
+  width: 330px;
 }
 
 .btn {
@@ -30,14 +42,14 @@
 }
 
 .social {
-  padding-top: 10px;
+  padding-top: 20px;
 }
 
 .social-link {
   display: block;
   background: #B6A1C4;
-  width: 35px;
-  height: 35px;
+  width: 50px;
+  height: 50px;
   border-radius: 50px;
 }
 
