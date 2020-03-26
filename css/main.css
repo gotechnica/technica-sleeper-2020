@@ -149,4 +149,8 @@
   .heading {
     text-align: center;
   }
+
+  .footer {
+    font-size: .70rem;
+  }
 }
