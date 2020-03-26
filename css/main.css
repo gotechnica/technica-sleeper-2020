@@ -5,16 +5,20 @@
   border-radius: 50px;
 }
 
+.navbar-toggler {
+  border: none;
+}
+
 .nav-item {
   margin-left: 20px;
 }
 
 .nav-link {
-  color: #B6A1C4;
+  color: #B6A1C4 !important;
 }
 
 .nav-link:hover, .nav-link:active {
-  color: #B6A1C4;
+  color: #B6A1C4 !important;
   filter: brightness(1.2);
 }
 
@@ -97,6 +101,19 @@
   margin-left: -15px !important;
 }
 
+/* navbar collapses */
+@media only screen and (max-width: 767px) {
+  .navbar-toggler  {
+    margin: 0 auto;
+    margin-left: 0px;
+  }
+
+  .nav-item {
+    margin-left: 0px;
+  }
+}
+
+/* mobile */
 @media only screen and (max-width: 575px) {
   h1 {
     font-size: 1.75rem;
