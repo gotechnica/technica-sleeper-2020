@@ -1,3 +1,13 @@
+@font-face {
+  font-family: "DINPro";
+  src: url(../fonts/DINPro-Regular.otf);
+}
+
+@font-face {
+  font-family: "DINPro-Bold";
+  src: url(../fonts/DINPro-Bold.otf);
+}
+
 .logo {
   background: linear-gradient(90deg, #00FFFF 0%, #AA96CA 46.35%, #FF6B98 100%);
   width: 50px;
@@ -14,6 +24,7 @@
 }
 
 .nav-link {
+  font-family: 'DINPro';
   color: #B6A1C4 !important;
 }
 
@@ -27,6 +38,7 @@
 }
 
 .heading {
+  font-family: 'DINPro-Bold';
   color: #FF6B98;
 }
 
@@ -35,6 +47,7 @@
 }
 
 .email-form {
+  font-family: 'DINPro';
   background: linear-gradient(90deg, #00FFFF 0%, #AA96CA 46.35%, #FF6B98 100%);
   padding: 5px;
 }
@@ -85,6 +98,7 @@
 }
 
 .overlay {
+  font-family: 'DINPro';
   position: absolute;
   top: 7%;
   left: 3%;
@@ -92,6 +106,7 @@
 }
 
 .footer {
+  font-family: 'DINPro';
   height: 50px;
   line-height: 50px;
   background: linear-gradient(90deg, #00FFFF 0%, #AA96CA 46.35%, #FF6B98 100%);
