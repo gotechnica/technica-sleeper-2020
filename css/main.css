@@ -115,6 +115,15 @@
     text-align: center;
   }
 
+  #email-input {
+    width: 100%;
+  }
+
+  .social-link {
+    width: 35px;
+    height: 35px;
+  }
+
   .main {
     padding-left: 0px;
     padding-right: 0px;
