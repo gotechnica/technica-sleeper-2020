@@ -1,26 +1,46 @@
 .logo {
   background: linear-gradient(90deg, #00FFFF 0%, #AA96CA 46.35%, #FF6B98 100%);
-  width: 75px;
-  height: 75px;
+  width: 50px;
+  height: 50px;
   border-radius: 50px;
 }
 
+.navbar-toggler {
+  border: none;
+}
+
+.nav-item {
+  margin-left: 20px;
+}
+
 .nav-link {
-  color: #B6A1C4;
+  color: #B6A1C4 !important;
 }
 
 .nav-link:hover, .nav-link:active {
-  color: #B6A1C4;
+  color: #B6A1C4 !important;
   filter: brightness(1.2);
+}
+
+.intro {
+  padding-top: 50px;
 }
 
 .heading {
   color: #FF6B98;
 }
 
+.form-inline {
+  padding-top: 20px;
+}
+
 .email-form {
   background: linear-gradient(90deg, #00FFFF 0%, #AA96CA 46.35%, #FF6B98 100%);
-  padding: 2px;
+  padding: 5px;
+}
+
+#email-input {
+  width: 330px;
 }
 
 .btn {
@@ -30,21 +50,21 @@
 }
 
 .social {
-  padding-top: 10px;
+  padding-top: 20px;
 }
 
 .social-link {
   display: block;
   background: #B6A1C4;
-  width: 35px;
-  height: 35px;
+  width: 50px;
+  height: 50px;
   border-radius: 50px;
 }
 
 .main {
   margin-top: 50px;
-  padding-left: 200px;
-  padding-right: 200px;
+  padding-left: 15%;
+  padding-right: 15%;
 }
 
 .past-link {
@@ -56,6 +76,7 @@
 .past-link img {
   height: 300px;
   width: 100%;
+  object-fit: cover;
 }
 
 .past-link:hover img {
@@ -80,9 +101,56 @@
   margin-left: -15px !important;
 }
 
-@media only screen and (max-width: 600px) {
+/* navbar collapses */
+@media only screen and (max-width: 767px) {
+  .navbar-toggler  {
+    margin: 0 auto;
+    margin-left: 0px;
+  }
+
+  .nav-item {
+    margin-left: 0px;
+  }
+}
+
+/* mobile */
+@media only screen and (max-width: 575px) {
+  h1 {
+    font-size: 1.75rem;
+  }
+
+  h2 {
+    font-size: 1.50rem;
+  }
+
+  h3 {
+    font-size: 1.25rem;
+  }
+
+  .email-form {
+    width: 100%;
+    text-align: center;
+  }
+
+  #email-input {
+    width: 100%;
+  }
+
+  .social-link {
+    width: 35px;
+    height: 35px;
+  }
+
   .main {
     padding-left: 0px;
     padding-right: 0px;
+  }
+
+  .heading {
+    text-align: center;
+  }
+
+  .footer {
+    font-size: .70rem;
   }
 }
