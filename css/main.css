@@ -1,3 +1,13 @@
+@import url("https://fonts.googleapis.com/css?family=Poppins:400,700,900");
+
+body {
+  font-family: 'Poppins';
+}
+
+h1, h2 {
+  font-weight: bold;
+}
+
 .logo {
   background: linear-gradient(90deg, #00FFFF 0%, #AA96CA 46.35%, #FF6B98 100%);
   width: 50px;
@@ -20,6 +30,7 @@
 .nav-link:hover, .nav-link:active {
   color: #B6A1C4 !important;
   filter: brightness(1.2);
+  transition: .3s ease;
 }
 
 .intro {
@@ -41,12 +52,19 @@
 
 #email-input {
   width: 330px;
+  border: none;
+  border-radius: 0;
 }
 
 .btn {
   background-color: transparent;
   border: none;
   color: white;
+}
+
+.btn:hover {
+  filter: brightness(.9);
+  transition: .3s ease;
 }
 
 .social {
