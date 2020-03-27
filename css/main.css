@@ -51,6 +51,8 @@ h1, h2 {
 
 #email-input {
   width: 330px;
+  border: none;
+  border-radius: 0;
 }
 
 .btn {
