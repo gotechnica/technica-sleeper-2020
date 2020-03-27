@@ -134,11 +134,11 @@ h1, h2 {
 /* mobile */
 @media only screen and (max-width: 575px) {
   h1 {
-    font-size: 1.75rem;
+    font-size: 1.60rem;
   }
 
   h2 {
-    font-size: 1.50rem;
+    font-size: 1.45rem;
   }
 
   h3 {
