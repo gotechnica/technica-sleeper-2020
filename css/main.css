@@ -143,6 +143,17 @@ h1, h2 {
   transition: .3s ease;
 }
 
+.stat-number {
+  font-size: 4.25rem;
+  font-weight: bold;
+  line-height: 1.2;
+}
+
+.stat-text {
+  font-size: 2rem;
+  line-height: 1;
+}
+
 td {
   border-top: none !important;
 }
