@@ -119,6 +119,20 @@ h1, h2 {
   margin-left: -15px !important;
 }
 
+td {
+  border-top: none !important;
+}
+
+th {
+  border-top: none !important;
+  padding-bottom: 5px !important;
+}
+
+.table-subheading {
+  border-bottom: solid 1px black;
+  background-color: white !important;
+}
+
 .benefit {
   width: 12px;
   height: 12px;
