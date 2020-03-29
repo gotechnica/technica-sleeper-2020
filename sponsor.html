@@ -105,25 +105,27 @@
           <form>
             <div class="info-input">
               <div class="form-row">
-                <div class="form-group col-md-8">
+                <div class="form-group col-md-7">
                   <label class="sr-only" for="name-input">Full Name</label>
                   <input type="text" class="form-control" id="name-input" placeholder="Full Name">
                 </div>
-                <div class="form-group col-md-4">
+                <div class="form-group col-md-5">
                   <label class="sr-only" for="company-input">Company Name</label>
                   <input type="text" class="form-control" id="company-input" placeholder="Company Name">
                 </div>
               </div>
-              <div class="form-group">
+              <div class="form-group mb-0">
                 <label class="sr-only" for="sponsor-email-input">Email Address</label>
                 <input type="email" class="form-control" id="sponsor-email-input" placeholder="Email Address">
               </div>
             </div>
-            <div class="form-group">
+            <div class="form-group inquiry-box mb-1">
               <label class="sr-only" for="inquiry-input">Inquiry</label>
-              <input type="text" class="form-control" id="inquiry-input" placeholder="Inquiry">
+              <textarea class="form-control" id="inquiry-input" rows="7" placeholder="Inquiry"></textarea>
             </div>
-            <button type="submit" class="btn">Send</button>
+            <div class="text-right">
+              <button type="submit" class="btn inquiry-btn">Send</button>
+            </div>
           </form>
         </div>
       </div>

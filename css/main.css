@@ -119,6 +119,30 @@ h1, h2 {
   margin-left: -15px !important;
 }
 
+.info-input {
+  padding: 10px;
+  background-color: #FF6B98;
+}
+
+.inquiry-box {
+  border: 3px solid #FF6B98;
+}
+
+.form-control {
+  border-radius: 0;
+  border: none;
+}
+
+.inquiry-btn {
+  border-radius: 0;
+  background-color: #FF6B98;
+}
+
+.inquiry-btn:hover {
+  filter: brightness(1.2);
+  transition: .3s ease;
+}
+
 td {
   border-top: none !important;
 }
