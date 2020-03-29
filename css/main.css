@@ -120,11 +120,30 @@ h1, h2 {
 }
 
 .benefit {
-  width: 10px;
-  height: 10px;
+  width: 12px;
+  height: 12px;
   border-radius: 50px;
   margin: 0 auto;
-  background: black;
+}
+
+.general {
+  background: #FF7BAC;
+}
+
+.general-text {
+  color: #FF7BAC;
+}
+
+.recruit {
+  background: #B6A1C4;
+}
+
+.brand {
+  background: #8CD8ED
+}
+
+.brand-text {
+  color: #8CD8ED
 }
 
 /* navbar collapses */
