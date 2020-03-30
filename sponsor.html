@@ -174,11 +174,8 @@
             <h3>Demographics</h3>
           </div>
           <div class="row">
-            <div class="col-md-4">
-              education lvl graph placeholder
-            </div>
-            <div class="col-md-2">
-              education lvl breakdown
+            <div class="col-md-6">
+              <canvas id="edulevels" height=175px ></canvas>
             </div>
             <div class="col-md-4">
               <div class="text-right">
@@ -436,7 +433,53 @@
   </article>
 </div>
 
+<script>
+/* initializing tooltips */
+$(function () {
+  $('[data-toggle="tooltip"]').tooltip()
+})
+</script>
+
+
+
 <!-- mlh badge -->
 <a id="mlh-trust-badge" style="display:block;max-width:100px;min-width:60px;position:fixed;right:50px;top:0;width:10%;z-index:10000" href="https://mlh.io/seasons/na-2020/events?utm_source=na-hackathon&utm_medium=TrustBadge&utm_campaign=2020-season&utm_content=white" target="_blank"><img src="https://s3.amazonaws.com/logged-assets/trust-badge/2020/mlh-trust-badge-2020-white.svg" alt="Major League Hacking 2020 Hackathon Season" style="width:100%"></a>
+<script>
+var ctx = document.getElementById('edulevels');
+var eduChart = new Chart(ctx, {
+  type: 'pie',
+  data: {
+    labels: ['Undergraduate College', 'High School', 'Graduate College', 'Middle School'],
+    datasets: [{
+      data: [585, 241, 67, 35],
+      backgroundColor: [
+        'rgb(0, 255, 255)',
+        'rgb(255, 123, 172)',
+        'rgb(0, 0, 0)',
+        'rgb(182, 161, 196)'
+      ],
+      borderColor: [
+        'rgba(0, 255, 255)',
+        'rgba(255, 123, 172)',
+        'rgb(0,0,0)',
+        'rgb(182, 161, 196)'
+      ],
+    }]
+  },
+  options: {
+    cutoutPercentage: 50,
+    title: {
+      display: true,
+      position: 'top',
+      text: 'Education Levels'
+    },
+    legend: {
+      position: 'right',
+      align: 'middle'
+    }
+  }
+});
+</script>
+
 </body>
 </html>
