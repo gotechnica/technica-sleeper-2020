@@ -104,7 +104,7 @@ h1, h2 {
 }
 
 .past-link:hover img {
-  filter: brightness(.8);
+  filter: brightness(1.07);
   transition: .3s ease;
 }
 
