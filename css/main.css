@@ -119,6 +119,10 @@ h1, h2 {
   margin-left: -15px !important;
 }
 
+.contact, .stats, .prospectus {
+  margin-top: 60px;
+}
+
 .info-input {
   padding: 10px;
   background-color: #FF6B98;
