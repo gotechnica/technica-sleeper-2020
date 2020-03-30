@@ -154,6 +154,12 @@ h1, h2 {
   line-height: 1;
 }
 
+.stats img {
+  height: 300px;
+  width: 100%;
+  object-fit: cover;
+}
+
 td {
   border-top: none !important;
 }
