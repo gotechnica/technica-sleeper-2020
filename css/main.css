@@ -171,6 +171,7 @@ h1, h2 {
   .social-link {
     width: 35px;
     height: 35px;
+    padding: 5px;
   }
 
   .main {
