@@ -460,6 +460,28 @@ $(function () {
 <a id="mlh-trust-badge" style="display:block;max-width:100px;min-width:60px;position:fixed;right:50px;top:0;width:10%;z-index:10000" href="https://mlh.io/seasons/na-2020/events?utm_source=na-hackathon&utm_medium=TrustBadge&utm_campaign=2020-season&utm_content=white" target="_blank"><img src="https://s3.amazonaws.com/logged-assets/trust-badge/2020/mlh-trust-badge-2020-white.svg" alt="Major League Hacking 2020 Hackathon Season" style="width:100%"></a>
 <script>
 var ctx = document.getElementById('edulevels');
+
+Chart.pluginService.register({
+  beforeDraw: function(chart) {
+    var width = chart.chart.width,
+        height = chart.chart.height,
+        ctx = chart.chart.ctx;
+
+    ctx.restore();
+    var fontSize = (height / 114).toFixed(2);
+    ctx.font = fontSize + "em sans-serif";
+    ctx.textBaseline = "middle";
+
+    var text = "Educational\nLevels",
+        textX = Math.round((width - ctx.measureText(text).width) / 3),
+        textY = height / 2;
+
+    ctx.fillText(text, textX, textY);
+    ctx.save();
+  }
+});
+
+
 var eduChart = new Chart(ctx, {
   type: 'pie',
   data: {
