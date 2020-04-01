@@ -176,6 +176,19 @@ h1, h2 {
   padding: 10px;
 }
 
+.race {
+  text-align: right;
+  float: left;
+  width: 80%;
+  padding-right: 10px;
+}
+
+.race-stat {
+  text-align: left;
+  float: right;
+  width: 20%;
+}
+
 td {
   border-top: none !important;
 }
