@@ -192,6 +192,13 @@ h1, h2 {
   width: 20%;
 }
 
+.edu-dot {
+  width: 15px;
+  height: 15px;
+  border-radius: 50px;
+  display: inline-block;
+}
+
 td {
   border-top: none !important;
 }
