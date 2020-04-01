@@ -147,10 +147,15 @@ h1, h2 {
   transition: .3s ease;
 }
 
+.stats .heading {
+  font-size: 4rem;
+}
+
 .stat-number {
-  font-size: 4.25rem;
+  font-size: 4.75rem;
   font-weight: bold;
-  line-height: 1.2;
+  line-height: 1;
+  color: #B6A1C4;
 }
 
 .stat-text {
@@ -159,8 +164,10 @@ h1, h2 {
 }
 
 .stats img {
-  height: 300px;
+  padding-top: 30px;
+  height: 95%;
   width: 100%;
+
   object-fit: cover;
 }
 
