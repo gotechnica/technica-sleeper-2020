@@ -147,7 +147,7 @@ h1, h2 {
   transition: .3s ease;
 }
 
-.stats .heading {
+.overall-stats .heading {
   font-size: 3.75rem;
 }
 
@@ -172,6 +172,10 @@ h1, h2 {
 .demographics {
   margin-top: 30px;
   padding: 10px;
+}
+
+.demographics .heading {
+  font-size: 2.5rem;
 }
 
 .demo-name {
