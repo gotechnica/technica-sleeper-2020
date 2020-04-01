@@ -148,11 +148,11 @@ h1, h2 {
 }
 
 .stats .heading {
-  font-size: 4rem;
+  font-size: 3.75rem;
 }
 
 .stat-number {
-  font-size: 4.75rem;
+  font-size: 4.3rem;
   font-weight: bold;
   line-height: 1;
   color: #B6A1C4;
@@ -164,10 +164,8 @@ h1, h2 {
 }
 
 .stats img {
-  padding-top: 30px;
-  height: 95%;
+  height: 100%;
   width: 100%;
-
   object-fit: cover;
 }
 
