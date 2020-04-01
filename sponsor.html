@@ -172,7 +172,7 @@
         <div class="demographics">
           <div class="row">
             <div class="col-md-5">
-              <canvas id="edulevels" height=175px ></canvas>
+              <canvas id="edulevels"></canvas>
             </div>
             <div class="col-md-7">
               <div class="row">
@@ -525,15 +525,9 @@ var eduChart = new Chart(ctx, {
     }]
   },
   options: {
-    cutoutPercentage: 50,
-    title: {
-      display: true,
-      position: 'top',
-      text: 'Education Levels'
-    },
+    cutoutPercentage: 60,
     legend: {
-      position: 'right',
-      align: 'middle'
+      display: false
     }
   }
 });
