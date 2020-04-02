@@ -171,7 +171,6 @@ h1, h2 {
 
 .demographics {
   margin-top: 30px;
-  padding: 10px;
   font-size: 13px;
 }
 
@@ -180,14 +179,25 @@ h1, h2 {
 }
 
 .demo-section {
-  background-color: grey;
+  background-color: #CDCDCD;
+  padding: 10px;
+  overflow: hidden; //because of floating stuff
+  height: 90%;
+}
+
+.stretch {
+  position:absolute;
+  top:0;
+  left:0;
+  right:0;
+  bottom:0;
 }
 
 .demo-name {
   text-align: right;
+  padding-right: 7px;
   float: left;
   width: 80%;
-  padding-right: 10px;
 }
 
 .demo-stat {
@@ -196,11 +206,21 @@ h1, h2 {
   width: 20%;
 }
 
+.edu {
+  line-height: 3.25;
+}
+
 .edu-dot {
   width: 15px;
   height: 15px;
   border-radius: 50px;
   display: inline-block;
+  vertical-align: -5.5%;
+  margin-right: 10px;
+}
+
+.edu .demo-stat {
+  color: grey;
 }
 
 td {
