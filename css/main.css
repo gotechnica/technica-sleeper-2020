@@ -274,6 +274,22 @@ th {
     max-width: 350px;
 }
 
+.add-ons {
+  overflow-x: visible !important;
+}
+
+/* .add-ons th {
+  border-top: none !important;
+  padding-bottom: 5px !important;
+} */
+
+/* .add-ons td {
+  border-top: none !important;
+  padding-bottom: 5px !important;
+  background-color: white !important;
+  border-bottom: 2px solid #dee2e6;
+} */
+
 /* navbar collapses */
 @media only screen and (max-width: 767px) {
   .navbar-toggler  {
