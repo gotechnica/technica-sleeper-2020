@@ -178,6 +178,7 @@ h1, h2 {
 .demographics .heading {
   font-size: 2.5rem;
   color: #B6A1C4;
+  margin-bottom: 10px;
 }
 
 .demo-section {
