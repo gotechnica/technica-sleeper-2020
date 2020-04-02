@@ -167,6 +167,7 @@ h1, h2 {
   height: 100%;
   width: 100%;
   object-fit: cover;
+  box-shadow: -2.25rem 0rem 0 -20px #B6A1C4, 1rem -1rem #FF7BAC;
 }
 
 .demographics {
