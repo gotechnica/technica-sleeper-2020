@@ -232,9 +232,6 @@ td {
 th {
   border-top: none !important;
   padding-bottom: 5px !important;
-}
-
-.table-subheading {
   border-bottom: solid 1px black;
   background-color: white !important;
 }
