@@ -176,10 +176,11 @@ h1, h2 {
 
 .demographics .heading {
   font-size: 2.5rem;
+  color: #B6A1C4;
 }
 
 .demo-section {
-  background-color: #CDCDCD;
+  background-color: #f3f3f3;
   padding: 20px 15px;
   overflow: hidden; //because of floating stuff
   height: 90%;
