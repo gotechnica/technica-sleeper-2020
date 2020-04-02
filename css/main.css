@@ -266,6 +266,17 @@ th {
   color: #8CD8ED
 }
 
+.prospectus span {
+  cursor: default;
+  color: grey;
+  padding-left: 3px;
+}
+
+.tooltip-inner {
+    min-width: 200px;
+    max-width: 350px;
+}
+
 /* navbar collapses */
 @media only screen and (max-width: 767px) {
   .navbar-toggler  {
