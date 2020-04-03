@@ -12,3 +12,4 @@ functions:
       - http:
           path: index
           method: post
+          cors: true

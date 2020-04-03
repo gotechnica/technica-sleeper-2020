@@ -166,3 +166,8 @@ th {
 .add-ons {
   overflow-x: visible !important;
 }
+
+#thank-you {
+  background-color: #FF6B98;
+  padding: 10px;
+}

@@ -27,5 +27,9 @@ module.exports.index = async event => {
       null,
       2
     ),
+    headers: {
+         'Access-Control-Allow-Origin': '*',
+         'Access-Control-Allow-Credentials': true,
+       }
   };
 };

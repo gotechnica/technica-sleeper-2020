@@ -102,7 +102,7 @@
           <h2> Let's Get In Touch </h2>
         </div>
         <p>Contact us at sponsorship@gotechnica.org or send an inquiry below!</p>
-        <div class="inquiry">
+        <div class="inquiry" id='inquiry-wrapper'>
           <form>
             <div class="info-input">
               <div class="form-row">
@@ -125,9 +125,12 @@
               <textarea class="form-control" id="inquiry-input" rows="7" placeholder="Inquiry"></textarea>
             </div>
             <div class="text-right">
-              <button type="submit" class="btn inquiry-btn">Send</button>
+              <button type="submit" class="btn inquiry-btn" id="submit-inquiry-button">Send</button>
             </div>
           </form>
+        </div>
+        <div id="thank-you">
+          Thank you for your inquiry. Our sponsorship team has received your message and will follow up.
         </div>
       </div>
 
@@ -561,6 +564,25 @@ var eduChart = new Chart(ctx, {
   }
   }
 });
+</script>
+<script>
+  $("#thank-you").hide()
+  $( "#submit-inquiry-button" ).click(function( event ) {
+    var email = $("#sponsor-email-input").val();
+    var name = $("#name-input").val();
+    var company = $("#company-input").val();
+    var message = $("#inquiry-input").val();
+    event.preventDefault();
+
+    var xhr = new XMLHttpRequest();
+    xhr.open("POST", "https://mokx4n2aq5.execute-api.us-east-1.amazonaws.com/dev/index", true);
+    xhr.setRequestHeader('Content-Type', 'application/json');
+    xhr.send(JSON.stringify({
+      email, name, company, message
+    }));
+    $("#thank-you").show()
+    $("#inquiry-wrapper").hide()
+  });
 </script>
 </body>
 </html>
