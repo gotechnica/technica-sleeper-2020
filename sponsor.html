@@ -11,6 +11,7 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.6.0/Chart.min.js"></script>
+  <script src="chartjs_plugin.js"></script>
   <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1" />
 </head>
 <body>
@@ -523,52 +524,6 @@
 $(function () {
   $('[data-toggle="tooltip"]').tooltip()
 })
-
-/* [modified] plugin to have text in the middle of donut from: stackoverflow.com/questions/20966817 */
-Chart.pluginService.register({
- beforeDraw: function (chart) {
-   if (chart.config.options.elements.center) {
-     //Get ctx from string
-     var ctx = chart.chart.ctx;
-
-     //Get options from the center object in options
-     var centerConfig = chart.config.options.elements.center;
-     var fontStyle = centerConfig.fontStyle || 'Arial';
-     var txt = centerConfig.text;
-     var txt2 = centerConfig.text2;
-     var color = centerConfig.color;
-     var sidePadding = 20;
-     var sidePaddingCalculated = (sidePadding/100) * (chart.innerRadius * 2)
-     //Start with a base font of 30px
-     ctx.font = "30px " + fontStyle;
-
-     //Get the width of the string and also the width of the element minus 10 to give it 5px side padding
-     var stringWidth = ctx.measureText(txt).width;
-     var elementWidth = (chart.innerRadius * 2) - sidePaddingCalculated;
-
-     // Find out how much the font can grow in width.
-     var widthRatio = elementWidth / stringWidth;
-     var newFontSize = Math.floor(30 * widthRatio);
-     var elementHeight = (chart.innerRadius * 2);
-
-     // Pick a new font size so it will not be larger than the height of label.
-     var fontSizeToUse = Math.min(newFontSize, elementHeight);
-
-     //Set font settings to draw it correctly.
-     ctx.textAlign = 'center';
-     ctx.textBaseline = 'middle';
-     var centerX = ((chart.chartArea.left + chart.chartArea.right) / 2);
-     var centerY = ((chart.chartArea.top + chart.chartArea.bottom) / 2);
-     var offSet = ((chart.chartArea.top + chart.chartArea.bottom) / 10);
-     ctx.font = fontSizeToUse+"px " + fontStyle;
-     ctx.fillStyle = color;
-
-     //Draw text in center
-     ctx.fillText(txt, centerX, centerY - (1/3)*offSet);
-     ctx.fillText(txt2, centerX, centerY + (2/3)*offSet);
-   }
- }
-});
 
 var ctx = document.getElementById('edulevels');
 var eduChart = new Chart(ctx, {
