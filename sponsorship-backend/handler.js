@@ -1,4 +1,5 @@
 const axios = require('axios');
+const webhook = "XXX";
 
 module.exports.index = async event => {
   const body = JSON.parse(event.body);
@@ -6,7 +7,7 @@ module.exports.index = async event => {
   const company = body.company;
   const email = body.email;
   const message = body.message;
-  await axios.post('https://hooks.slack.com/services/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', {
+  await axios.post(webhook, {
     text: `New inbound sponsorship request. \nName: *${name}*\nCompany: ${company}\nEmail: ${email}\nMessage: ${message}`
   })
   .then(function (response) {
