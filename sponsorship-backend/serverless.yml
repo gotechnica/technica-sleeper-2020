@@ -1,0 +1,14 @@
+service: sponsorship-backend
+
+
+provider:
+  name: aws
+  runtime: nodejs10.x
+
+functions:
+  index:
+    handler: handler.index
+    events:
+      - http:
+          path: index
+          method: post

@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/gotechnica/technica-sleeper-2020/issues"
   },
-  "homepage": "https://github.com/gotechnica/technica-sleeper-2020#readme"
+  "homepage": "https://github.com/gotechnica/technica-sleeper-2020#readme",
+  "dependencies": {
+    "axios": "^0.19.2"
+  }
 }
