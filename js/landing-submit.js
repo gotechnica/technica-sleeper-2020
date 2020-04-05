@@ -12,11 +12,10 @@ $( "#email-form-wrapper" ).submit(function( event ) {
     "email": email
   }));
   $("#email-input").blur();
-   $("#email-input").val("")
-  // $("#email-form-input").addClass( "animated zoomOutRight bg-transparent" );
-  // setTimeout(() => {
-  //   $("#email-form-input").val("")
-  //   $("#email-form-input").removeClass( "animated zoomOutRight bg-transparent" );
-  // }, 1000);
+  $("#email-input").addClass( "animated zoomOutRight bg-transparent" );
+  setTimeout(() => {
+    $("#email-input").val("")
+    $("#email-input").removeClass( "animated zoomOutRight bg-transparent" );
+  }, 1000);
 
 });
