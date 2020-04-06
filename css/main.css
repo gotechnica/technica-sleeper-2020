@@ -77,6 +77,12 @@ h1, h2 {
   width: 50px;
   height: 50px;
   border-radius: 50px;
+  padding: 8px;
+}
+
+.social-link:hover {
+  filter: brightness(1.15);
+  transition: .3s ease;
 }
 
 .main {
@@ -92,13 +98,14 @@ h1, h2 {
 }
 
 .past-link img {
-  height: 300px;
+  min-height: 300px;
+  height: 23vw;
   width: 100%;
   object-fit: cover;
 }
 
 .past-link:hover img {
-  filter: brightness(.8);
+  filter: brightness(1.15);
   transition: .3s ease;
 }
 
@@ -157,6 +164,7 @@ h1, h2 {
   .social-link {
     width: 35px;
     height: 35px;
+    padding: 5px;
   }
 
   .main {
