@@ -46,12 +46,12 @@
   height: 100%;
   width: 100%;
   object-fit: cover;
-  box-shadow: -2.25rem 0rem 0 -20px #B6A1C4, 1rem -1rem #FF7BAC;
+  box-shadow: -2rem 0rem 0 -20px #B6A1C4, 0.75rem -.75rem #FF7BAC;
 }
 
 .demographics {
   margin-top: 30px;
-  font-size: .9vw;
+  font-size: .95vw;
 }
 
 .demographics .heading {
@@ -167,3 +167,38 @@ th {
   background-color: #FF6B98;
   padding: 10px;
 }
+
+@media only screen and (max-width: 1370px) {
+  .main {
+    padding-left: 100px;
+    padding-right: 100px;
+  }
+
+  .demographics {
+    font-size: 1.1vw;
+  }
+}
+
+@media only screen and (max-width: 1200px) {
+  .main {
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+
+  .demographics {
+    font-size: 1.2vw;
+  }
+}
+
+@media only screen and (max-width: 1000px) {
+  .main {
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+  
+  .demographics {
+    font-size: 1.3vw;
+  }
+}
+
+/* switch to mobile-layout */
