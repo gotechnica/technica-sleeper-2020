@@ -182,8 +182,8 @@ th {
 /* large breakpoint, switch to mobile-layout */
 @media only screen and (max-width: 991px) {
   .main {
-    padding-left: 100px;
-    padding-right: 100px;
+    padding-left: 10%;
+    padding-right: 10%;
   }
 
   .stats img {
@@ -195,7 +195,8 @@ th {
   }
 }
 
-@media only screen and (max-width: 600px) {
+/* mobile */
+@media only screen and (max-width: 575px) {
   .main {
     padding-left: 10%;
     padding-right: 0px;
