@@ -195,11 +195,20 @@ th {
   }
 
   .demographics {
-    font-size: 1.3vw;
+    font-size: 16px;
   }
 
   .stretch {
     position: static;
+  }
+
+  .demo-name {
+    padding-right: 7.5%;
+    width: 70%;
+  }
+
+  .demo-stat {
+    width: 30%;
   }
 }
 
