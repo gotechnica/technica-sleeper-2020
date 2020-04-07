@@ -214,6 +214,10 @@ th {
   .demo-stat {
     width: 30%;
   }
+
+  .edu .demo-name {
+    padding-left: 20%;
+  }
 }
 
 @media only screen and (max-width: 675px) {
