@@ -190,15 +190,25 @@ th {
   }
 }
 
-@media only screen and (max-width: 1000px) {
+/* switch to mobile-layout */
+@media only screen and (max-width: 991px) {
   .main {
-    padding-left: 0px;
-    padding-right: 0px;
+    padding-left: 100px;
+    padding-right: 100px;
   }
-  
+
   .demographics {
     font-size: 1.3vw;
   }
 }
 
-/* switch to mobile-layout */
+@media only screen and (max-width: 600px) {
+  .main {
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+
+  .demographics {
+    font-size: 1.3vw;
+  }
+}
