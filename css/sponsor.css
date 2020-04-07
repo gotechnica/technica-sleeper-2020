@@ -198,6 +198,10 @@ th {
     font-size: 16px;
   }
 
+  .demo-section {
+    margin-right: 0 !important;
+  }
+
   .stretch {
     position: static;
   }
