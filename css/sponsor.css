@@ -199,7 +199,7 @@ th {
   }
 
   .demo-section {
-    margin-right: 0 !important;
+    margin-bottom: 10px;/*3%;*/
   }
 
   .stretch {
