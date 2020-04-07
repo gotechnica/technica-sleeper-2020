@@ -197,6 +197,10 @@ th {
   .demographics {
     font-size: 1.3vw;
   }
+
+  .stretch {
+    position: static;
+  }
 }
 
 /* mobile */
