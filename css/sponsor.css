@@ -190,6 +190,10 @@ th {
     margin-top: 10%;
   }
 
+  canvas {
+    margin-top: 15%;
+  }
+
   .demographics {
     font-size: 1.3vw;
   }
@@ -199,7 +203,7 @@ th {
 @media only screen and (max-width: 575px) {
   .main {
     padding-left: 10%;
-    padding-right: 0px;
+    padding-right: 10%;
   }
 
   .stats img {
