@@ -170,8 +170,8 @@ th {
 
 @media only screen and (max-width: 1370px) {
   .main {
-    padding-left: 100px;
-    padding-right: 100px;
+    padding-left: 7%;
+    padding-right: 7%;
   }
 
   .demographics {
@@ -179,22 +179,15 @@ th {
   }
 }
 
-@media only screen and (max-width: 1200px) {
-  .main {
-    padding-left: 50px;
-    padding-right: 50px;
-  }
-
-  .demographics {
-    font-size: 1.2vw;
-  }
-}
-
-/* switch to mobile-layout */
+/* large breakpoint, switch to mobile-layout */
 @media only screen and (max-width: 991px) {
   .main {
     padding-left: 100px;
     padding-right: 100px;
+  }
+
+  .stats img {
+    margin-top: 10%;
   }
 
   .demographics {
@@ -204,8 +197,13 @@ th {
 
 @media only screen and (max-width: 600px) {
   .main {
-    padding-left: 0px;
+    padding-left: 10%;
     padding-right: 0px;
+  }
+
+  .stats img {
+    margin-left: 10px;
+    margin-right: 10px;
   }
 
   .demographics {
