@@ -222,7 +222,15 @@ th {
   .edu-dot {
     width: 25px;
     height: 25px;
-    vertical-align: -5px;
+    vertical-align: -6px;
+  }
+
+  .lower .demo-name {
+    width: 60%;
+  }
+
+  .lower .demo-stat {
+    width: 40%;
   }
 }
 
@@ -234,21 +242,38 @@ th {
   .demo-stat {
     width: 20%
   }
+
+  .lower .demo-name {
+    width: 70%;
+  }
+
+  .lower .demo-stat {
+    width: 30%;
+  }
 }
 
 /* mobile */
 @media only screen and (max-width: 575px) {
-  .main {
-    padding-left: 10%;
-    padding-right: 10%;
-  }
-
   .stats img {
     margin-left: 10px;
     margin-right: 10px;
   }
 
   .demographics {
-    font-size: 1.3vw;
+    font-size: 3vw;
   }
+
+  .demo-name {
+    width: 85%;
+  }
+
+  .demo-stat {
+    width: 15%
+  }
+
+  .edu .demo-name {
+    padding-left: 10%;
+  }
+
+
 }
