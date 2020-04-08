@@ -294,6 +294,10 @@ th {
     padding-right: 3%;
   }
 
+  .intro h1 {
+    font-size: 1.9rem;
+  }
+
   .stat-number {
     font-size: 3.7rem;
   }
