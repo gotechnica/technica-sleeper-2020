@@ -218,6 +218,12 @@ th {
   .edu .demo-name {
     padding-left: 20%;
   }
+
+  .edu-dot {
+    width: 25px;
+    height: 25px;
+    vertical-align: -5px;
+  }
 }
 
 @media only screen and (max-width: 675px) {
