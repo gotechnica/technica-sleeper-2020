@@ -323,6 +323,10 @@ th {
     padding-left: 10%;
   }
 
+  .prospectus {
+    font-size: .9rem;
+  }
+
   .tooltip-inner {
       width: 300px;
   }
