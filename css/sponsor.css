@@ -294,8 +294,16 @@ th {
     padding-right: 3%;
   }
 
-  .intro h1 {
+  h1 {
     font-size: 1.9rem;
+  }
+
+  .overall-stats .heading {
+    font-size: 3.25rem;
+  }
+
+  .overall-stats img {
+    box-shadow: -1.8rem 0rem 0 -20px #B6A1C4, 0.5rem -.5rem #FF7BAC;
   }
 
   .stat-number {
