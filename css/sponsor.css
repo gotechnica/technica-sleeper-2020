@@ -201,6 +201,8 @@ th {
 
   .demographics .heading {
     margin-left: 0px;
+    margin-top: 8%;
+    margin-bottom: 20px;
   }
 
   .stat-number {
@@ -213,10 +215,6 @@ th {
 
   .stats img {
     margin-top: 10%;
-  }
-
-  canvas {
-    margin-top: 15%;
   }
 
   .demographics {
