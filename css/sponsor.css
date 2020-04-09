@@ -46,18 +46,19 @@
   height: 100%;
   width: 100%;
   object-fit: cover;
-  box-shadow: -2.25rem 0rem 0 -20px #B6A1C4, 1rem -1rem #FF7BAC;
+  box-shadow: -2rem 0rem 0 -20px #B6A1C4, 0.75rem -.75rem #FF7BAC;
 }
 
 .demographics {
   margin-top: 30px;
-  font-size: .9vw;
+  font-size: .95vw;
 }
 
 .demographics .heading {
   font-size: 2.5rem;
   color: #B6A1C4;
   margin-bottom: 10px;
+  margin-left: -15px;
 }
 
 .demo-section {
@@ -98,7 +99,7 @@
   height: 1.5vw;
   border-radius: 50px;
   display: inline-block;
-  vertical-align: -13%;
+  vertical-align: -.3vw;
   margin-right: 10px;
 }
 
@@ -119,10 +120,6 @@ th {
 
 .add-ons td {
   border-bottom: 2px solid #dee2e6;
-}
-
-.add-ons {
-  margin-top: 15px;
 }
 
 .benefit {
@@ -170,4 +167,179 @@ th {
 #thank-you {
   background-color: #FF6B98;
   padding: 10px;
+}
+
+@media only screen and (max-width: 1370px) {
+  .main {
+    padding-left: 7%;
+    padding-right: 7%;
+  }
+
+  .stat-number {
+    font-size: 6.25vw;
+  }
+
+  .stat-text {
+    font-size: 2.5vw;
+  }
+
+  .demographics {
+    font-size: 1.1vw;
+  }
+}
+
+/* large breakpoint, switch to mobile-layout */
+@media only screen and (max-width: 991px) {
+  .main {
+    padding-left: 10%;
+    padding-right: 10%;
+  }
+
+  .heading {
+    text-align: center;
+  }
+
+  .demographics .heading {
+    margin-left: 0px;
+    margin-top: 8%;
+    margin-bottom: 20px;
+  }
+
+  canvas {
+    margin-bottom: 20px;
+  }
+
+  .stat-number {
+    font-size: 6rem;
+  }
+
+  .stat-text {
+    font-size: 2.3rem;
+  }
+
+  .stats img {
+    margin-top: 10%;
+  }
+
+  .demographics {
+    font-size: 16px;
+  }
+
+  .demo-section {
+    margin-bottom: 20px;
+  }
+
+  .stretch {
+    position: static;
+  }
+
+  .demo-name {
+    padding-right: 7.5%;
+    width: 70%;
+  }
+
+  .demo-stat {
+    width: 30%;
+  }
+
+  .edu .demo-name {
+    padding-left: 20%;
+  }
+
+  .edu-dot {
+    width: 25px;
+    height: 25px;
+    vertical-align: -6px;
+  }
+
+  .lower .demo-name {
+    width: 60%;
+  }
+
+  .lower .demo-stat {
+    width: 40%;
+  }
+}
+
+@media only screen and (max-width: 675px) {
+  .stat-number {
+    font-size: 5rem;
+  }
+
+  .stat-text {
+    font-size: 2.25rem;
+  }
+
+  .demo-name {
+    width: 80%;
+  }
+
+  .demo-stat {
+    width: 20%
+  }
+
+  .lower .demo-name {
+    width: 70%;
+  }
+
+  .lower .demo-stat {
+    width: 30%;
+  }
+}
+
+/* mobile */
+@media only screen and (max-width: 575px) {
+  .main {
+    padding-left: 3%;
+    padding-right: 3%;
+  }
+
+  h1 {
+    font-size: 1.9rem;
+  }
+
+  .overall-stats .heading {
+    font-size: 3.25rem;
+  }
+
+  .overall-stats img {
+    box-shadow: -1.8rem 0rem 0 -20px #B6A1C4, 0.5rem -.5rem #FF7BAC;
+  }
+
+  .stat-number {
+    font-size: 3.7rem;
+  }
+
+  .stat-text {
+    font-size: 1.7rem;
+  }
+
+  .stats img {
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+
+  .demographics {
+    font-size: 3.5vw;
+  }
+
+  .demo-name {
+    width: 85%;
+  }
+
+  .demo-stat {
+    width: 15%
+  }
+
+  .edu .demo-name {
+    padding-left: 10%;
+  }
+
+  .prospectus {
+    font-size: .9rem;
+  }
+
+  .tooltip-inner {
+      width: 300px;
+  }
 }

@@ -57,7 +57,15 @@
     <!-- main -->
     <section class="main">
       <!-- letter -->
-      <div class="letter">
+      <div class="letter" style="position: relative">
+        <div class="d-none d-lg-block">
+          <img src="img/purple_sparkle.svg" style="position: absolute; width: 30px; top: -60px; left: -40px">
+          <img src="img/pink_sparkle.svg" style="position: absolute; width: 35px; top: 100px; left: -8.5%">
+          <img src="img/blue_sparkle.svg" style="position: absolute; width: 25px; bottom: -50px; left: -30px">
+          <img src="img/pink_sparkle.svg" style="position: absolute; width: 35px; top: -40px; right: 30px">
+          <img src="img/purple_sparkle.svg" style="position: absolute; width: 25px; bottom: 150px; right: -50px">
+          <img src="img/blue_sparkle.svg" style="position: absolute; width: 30px; bottom: 10px; right: 0">
+        </div>
         <p>Hello Potential Sponsors!</p>
         <p>
           This coming November, students at the University of Maryland will host Technica,
@@ -97,44 +105,6 @@
         </p>
       </div>
 
-      <!-- contact -->
-      <div class="contact">
-        <div class="heading">
-          <h2> Let's Get In Touch </h2>
-        </div>
-        <p>Contact us at sponsorship@gotechnica.org or send an inquiry below!</p>
-        <div class="inquiry" id='inquiry-wrapper'>
-          <form>
-            <div class="info-input">
-              <div class="form-row">
-                <div class="form-group col-md-7">
-                  <label class="sr-only" for="name-input">Full Name</label>
-                  <input type="text" class="form-control" id="name-input" placeholder="Full Name">
-                </div>
-                <div class="form-group col-md-5">
-                  <label class="sr-only" for="company-input">Company Name</label>
-                  <input type="text" class="form-control" id="company-input" placeholder="Company Name">
-                </div>
-              </div>
-              <div class="form-group mb-0">
-                <label class="sr-only" for="sponsor-email-input">Email Address</label>
-                <input type="email" class="form-control" id="sponsor-email-input" placeholder="Email Address">
-              </div>
-            </div>
-            <div class="form-group inquiry-box mb-1">
-              <label class="sr-only" for="inquiry-input">Inquiry</label>
-              <textarea class="form-control" id="inquiry-input" rows="7" placeholder="Inquiry"></textarea>
-            </div>
-            <div class="text-right">
-              <button type="submit" class="btn inquiry-btn" id="submit-inquiry-button">Send</button>
-            </div>
-          </form>
-        </div>
-        <div id="thank-you">
-          Thank you for your inquiry. Our sponsorship team has received your message and will follow up.
-        </div>
-      </div>
-
       <!-- stats -->
       <div class="stats">
         <div class="overall-stats">
@@ -142,50 +112,62 @@
             Statistics
           </div>
           <div class="row">
-            <div class="col-md-5">
+            <div class="col-lg-5">
               <div class="row" style="margin-bottom: 30px">
-                <div class="col-md-6">
+                <div class="col-6">
                   <span class="stat-number">900+</span>
                   <br>
                   <span class="stat-text">Attendees</span>
                 </div>
-                <div class="col-md-6">
+                <div class="col-6">
                   <span class="stat-number">150+</span>
                   <br>
                   <span class="stat-text">Schools</span>
                 </div>
               </div>
               <div class="row">
-                <div class="col-md-6">
+                <div class="col-6">
                   <span class="stat-number">144</span>
                   <br>
                   <span class="stat-text">Projects submitted</span>
                   </div>
-                <div class="col-md-6">
+                <div class="col-6">
                   <span class="stat-number">37</span>
                   <br>
                   <span class="stat-text">Sponsors</span>
                 </div>
               </div>
             </div>
-            <div class="col-md-7 pl-0">
+            <div class="col-lg-7 pl-0">
               <img src="./img/statistics.png">
             </div>
           </div>
         </div>
         <div class="demographics">
           <div class="row">
-            <div class="col-md-5 pr-5 pt-3">
+            <div class="col-lg-5 pr-lg-5 pt-3">
+              <div class="heading d-block d-lg-none">
+                Demographics
+              </div>
+              <img class="d-none d-lg-block" src="img/pink_sparkle.svg" style="position: absolute; width: 35px; top: 60px; left: -25px">
+              <img class="d-none d-lg-block" src="img/purple_sparkle.svg" style="position: absolute; width: 30px; bottom: 80px; left: -50px">
+              <img class="d-none d-lg-block" src="img/blue_sparkle.svg" style="position: absolute; width: 25px; bottom: 15px; left: 35px">
+              <img class="d-block d-lg-none" src="img/pink_sparkle.svg" style="position: absolute; width: 8%; top: 17%; left: 6%">
+              <img class="d-block d-lg-none" src="img/purple_sparkle.svg" style="position: absolute; width: 7%; bottom: 12%; left: 2%">
+              <img class="d-block d-lg-none" src="img/blue_sparkle.svg" style="position: absolute; width: 6%; bottom: 2%; left: 20%">
+              <img class="d-block d-lg-none" src="img/purple_sparkle.svg" style="position: absolute; width: 8%; top: 17%; right: 6%">
+              <img class="d-block d-lg-none" src="img/pink_sparkle.svg" style="position: absolute; width: 6%; top: 28%; right: -1%">
+              <img class="d-block d-lg-none" src="img/blue_sparkle.svg" style="position: absolute; width: 7%; bottom: 10%; right: 2%">
               <canvas id="edulevels" aria-label="Educational Level Breakdown Chart" role="img"></canvas>
             </div>
-            <div class="col-md-7">
-              <div class="row">
-                <div class="heading">
-                  Demographics
-                </div>
+            <div class="col-lg-7">
+              <div class="heading d-none d-lg-block">
+                Demographics
               </div>
-              <div class="row mb-3">
-                <div class="col-md-5">
+              <img class="d-none d-lg-block" src="img/purple_sparkle.svg" style="position: absolute; width: 35px; right: 8%; top: 15px">
+              <img class="d-none d-lg-block" src="img/pink_sparkle.svg" style="position: absolute; width: 25px; right: -40px; top: 120px">
+              <div class="row mb-lg-3">
+                <div class="col-lg-5">
                   <div class="demo-section stretch edu">
                     <span class="demo-name text-left edu-text"><span class="edu-dot" style="background: #00FFFF"></span>Undergraduate</span>
                     <span class="demo-stat">63%</span>
@@ -200,8 +182,8 @@
                     <span class="demo-stat">3.8%</span>
                   </div>
                 </div>
-                <div class="col-md-7">
-                  <div class="demo-section">
+                <div class="col-lg-7">
+                  <div class="demo-section pl-0">
                     <span class="demo-name">American Indian or Alaska Native</span>
                     <span class="demo-stat">0.8%</span>
                     <br>
@@ -228,9 +210,9 @@
                   </div>
                 </div>
               </div>
-              <div class="row">
-                <div class="col-md-3">
-                  <div class="demo-section pt-2 pr-4 stretch">
+              <div class="row lower">
+                <div class="col order-1">
+                  <div class="demo-section pt-lg-2 pr-lg-4 stretch order-1">
                     <span class="demo-name">Minors</span>
                     <span class="demo-stat">32.2%</span>
                     <br>
@@ -238,7 +220,7 @@
                     <span class="demo-stat">67.8%</span>
                   </div>
                 </div>
-                <div class="col-md-6">
+                <div class="col-lg-6 order-3 order-lg-2">
                   <div class="demo-section pt-2 pb-2">
                     <span class="demo-name">First time hackers</span>
                     <span class="demo-stat">79.7%</span>
@@ -247,14 +229,15 @@
                     <span class="demo-stat">75%</span>
                   </div>
                 </div>
-                <div class="col-md-3">
-                  <div class="demo-section stretch mr-3 pt-2 pr-4 pl-0">
+                <div class="col order-2 order-lg-3">
+                  <div class="demo-section stretch mr-lg-3 pt-lg-2 pr-lg-4 pl-lg-0">
                     <span class="demo-name">Female</span>
                     <span class="demo-stat">98.2%</span>
                     <br>
                     <span class="demo-name">Non-Binary</span>
                     <span class="demo-stat">1.8%</span>
                   </div>
+                  <img class="d-none d-lg-block" src="img/blue_sparkle.svg" style="position: absolute; width: 30px; right: -5px; bottom: -50px">
                 </div>
               </div>
             </div>
@@ -266,32 +249,6 @@
       <div class="prospectus">
         <div class="heading">
           <h2> Sponsorship Prospectus </h2>
-        </div>
-        <div class="table-responsive add-ons">
-          <table class="table">
-            <thead>
-              <tr>
-                <th class="text-center align-bottom pl-0" colspan="2" scope=colgroup>Add-Ons</th>
-              </tr>
-            </thead>
-            <tbody>
-              <tr class="text-center">
-                <td style="width:50%">
-                  Bus Route
-                  <span data-toggle="tooltip" title="Sponsor a Technica bus which brings people from across the east coast. You have the option to have marketing materials distributed on the bus, and a “sponsored by” shoutout.">&#9432;</span>
-                  <br>
-                  $3000
-                </td>
-                <td>
-                  Tech + X
-                  <span data-toggle="tooltip" title="The mission of the Tech+X series, where X is replaced by some other field, is to expose students of all different backgrounds to the various intersections between technology and select “non-tech” fields. We feel that by connecting other fields to technology, we can inspire people to take a greater interest in it. These talks are held prior to Technica.">&#9432;</span>
-                  <br>
-                  $1000*
-                  <br>
-                </td>
-              </tr>
-            </tbody>
-          </table>
         </div>
         <div class="table-responsive">
           <table class="table table-hover">
@@ -487,7 +444,71 @@
             </tbody>
           </table>
         </div>
+        <div class="table-responsive add-ons">
+          <table class="table">
+            <thead>
+              <tr>
+                <th class="text-center align-bottom pl-0" colspan="2" scope=colgroup>Add-Ons</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr class="text-center">
+                <td style="width:50%">
+                  Bus Route
+                  <span data-toggle="tooltip" title="Sponsor a Technica bus which brings people from across the east coast. You have the option to have marketing materials distributed on the bus, and a “sponsored by” shoutout.">&#9432;</span>
+                  <br>
+                  $3000
+                </td>
+                <td>
+                  Tech + X
+                  <span data-toggle="tooltip" title="The mission of the Tech+X series, where X is replaced by some other field, is to expose students of all different backgrounds to the various intersections between technology and select “non-tech” fields. We feel that by connecting other fields to technology, we can inspire people to take a greater interest in it. These talks are held prior to Technica.">&#9432;</span>
+                  <br>
+                  $1000*
+                  <br>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
         <p class="text-center" style="color: grey">*$250 Tech + X discount for startups</p>
+      </div>
+
+      <!-- contact -->
+      <div class="contact">
+        <div class="heading">
+          <h2> Let's Get In Touch </h2>
+        </div>
+        <p>Contact us at sponsorship@gotechnica.org or send an inquiry below!</p>
+        <div class="inquiry" id='inquiry-wrapper'>
+          <form>
+            <div class="info-input">
+              <div class="form-row">
+                <div class="form-group col-md-7">
+                  <label class="sr-only" for="name-input">Full Name</label>
+                  <input type="text" class="form-control" id="name-input" placeholder="Full Name">
+                </div>
+                <div class="form-group col-md-5">
+                  <label class="sr-only" for="company-input">Company Name</label>
+                  <input type="text" class="form-control" id="company-input" placeholder="Company Name">
+                </div>
+              </div>
+              <div class="form-group mb-0">
+                <label class="sr-only" for="sponsor-email-input">Email Address</label>
+                <input type="email" class="form-control" id="sponsor-email-input" placeholder="Email Address">
+              </div>
+            </div>
+            <div class="form-group inquiry-box mb-1">
+              <label class="sr-only" for="inquiry-input">Inquiry</label>
+              <textarea class="form-control" id="inquiry-input" rows="7" placeholder="Inquiry"></textarea>
+            </div>
+            <div class="text-right">
+              <button type="submit" class="btn inquiry-btn" id="submit-inquiry-button">Send</button>
+            </div>
+          </form>
+        </div>
+        <div id="thank-you">
+          Thank you for your inquiry. Our sponsorship team has received your message and will follow up.
+        </div>
       </div>
 
       <!-- social links -->
