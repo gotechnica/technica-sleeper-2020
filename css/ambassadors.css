@@ -1,3 +1,7 @@
+h3 {
+  font-weight: bold
+}
+
 .position-desc img {
   height: 100%;
   min-width: 50%;
@@ -5,6 +9,14 @@
   object-fit: cover;
 }
 
-h3 {
-  font-weight: bold
+.card {
+  border: none;
+}
+
+.card-header {
+  background-color: white;
+}
+
+.accordion .btn {
+  color: #B6A1C4;
 }
