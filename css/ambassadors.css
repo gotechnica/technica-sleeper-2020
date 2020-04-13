@@ -30,6 +30,8 @@ h3 {
   color: #B6A1C4;
   font-weight: bold;
   font-size: 1.25rem;
+  white-space: normal;
+  text-align: left;
 }
 
 .accordion h3 {
