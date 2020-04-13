@@ -133,7 +133,7 @@ h1, h2 {
 }
 
 /* navbar collapses */
-@media only screen and (max-width: 767px) {
+@media only screen and (max-width: 991px) {
   .navbar-toggler  {
     margin: 0 auto;
     margin-left: 0px;
