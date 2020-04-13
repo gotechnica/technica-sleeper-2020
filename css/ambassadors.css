@@ -13,6 +13,10 @@ h3 {
   object-fit: cover;
 }
 
+.faq {
+  margin: 40px 0;
+}
+
 .card {
   border: none;
 }
