@@ -15,7 +15,11 @@ $( "#email-form-wrapper" ).submit(function( event ) {
   $("#email-input").addClass( "animated zoomOutRight bg-transparent" );
   setTimeout(() => {
     $("#email-input").val("")
-    $("#email-input").removeClass( "animated zoomOutRight bg-transparent" );
+    // $("#email-input").removeClass( "animated zoomOutRight bg-transparent" );
+    // $("#email-form-submit").text("")
+    $("#email-input").hide();
+    $("#email-form-submit").html("Thank you for subscribing!")
+    $("#email-form").addClass("email-form-post-submit")
   }, 1000);
 
 });
