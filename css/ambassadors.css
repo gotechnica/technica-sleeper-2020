@@ -1,3 +1,7 @@
+.position-desc, .apply, .faq {
+  margin-top: 40px;
+}
+
 h3 {
   font-weight: bold
 }
