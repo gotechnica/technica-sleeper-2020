@@ -190,4 +190,11 @@ h1, h2 {
 .email-form-post-submit {
   padding-left: 30px;
   padding-right: 30px;
+  cursor: default !important;
+}
+
+.email-form-post-submit:hover {
+  filter: none;
+  transition: none;
+  cursor: default !important;
 }

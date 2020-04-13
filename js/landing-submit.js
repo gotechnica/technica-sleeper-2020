@@ -18,6 +18,7 @@ $( "#email-form-wrapper" ).submit(function( event ) {
     $("#email-input").hide();
     $("#email-form-submit").html("Thank you for subscribing!")
     $("#email-form").addClass("email-form-post-submit")
+    $("#email-form-submit").addClass("email-form-post-submit")
   }, 1000);
 
 });
