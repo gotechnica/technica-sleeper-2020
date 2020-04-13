@@ -20,3 +20,7 @@ h3 {
 .accordion .btn {
   color: #B6A1C4;
 }
+
+.accordion h3 {
+  margin-bottom: 0px;
+}
