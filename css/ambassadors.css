@@ -40,6 +40,11 @@ h3 {
 
 .card-header {
   background-color: white;
+  padding-left: 0px;
+}
+
+.card-body {
+  padding-left: 0px;
 }
 
 .accordion .btn {
@@ -47,10 +52,8 @@ h3 {
   white-space: normal;
   text-align: left;
   width: 100%;
-}
-
-.accordion h3 {
-  margin-bottom: 0px;
+  padding-bottom: 0px;
+  padding-left: 0px;
 }
 
 .faq a {
