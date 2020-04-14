@@ -23,6 +23,10 @@ h3 {
   padding: 5px 0px;
 }
 
+.perk-list li {
+  padding: 2px;
+}
+
 .apply .btn {
   background-color: #FF6B98;
   font-size: 2rem;
