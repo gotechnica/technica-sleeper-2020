@@ -27,6 +27,10 @@ h3 {
   padding: 2px;
 }
 
+.apply {
+  font-size: 1.75rem;
+}
+
 .apply .btn {
   background-color: #FF6B98;
   font-size: 2rem;
@@ -65,6 +69,11 @@ h3 {
   padding-left: 0px;
 }
 
-.faq a {
+.email {
+  font-size: 1.75rem;
+}
+
+.email a {
   color: #B6A1C4;
+  font-weight: bold;
 }
