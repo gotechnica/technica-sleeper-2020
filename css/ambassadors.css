@@ -3,7 +3,7 @@ h3 {
 }
 
 .position-desc {
-  margin-top: 20px;
+  margin-top: 40px;
 }
 
 .position-desc img {
@@ -17,6 +17,10 @@ h3 {
 .position-desc img:hover {
   filter: brightness(1.15);
   transition: .3s ease;
+}
+
+.position-desc li {
+  padding: 5px 0px;
 }
 
 .apply .btn {
