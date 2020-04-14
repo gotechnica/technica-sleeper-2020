@@ -56,18 +56,18 @@ h3 {
   padding-left: 0px;
 }
 
-.card-body {
-  padding-left: 0px;
-  color: grey;
-}
-
 .accordion .btn {
   color: black;
   white-space: normal;
   text-align: left;
   width: 100%;
-  padding-bottom: 0px;
   padding-left: 0px;
+  padding-bottom: 0px;
+}
+
+.card-body {
+  padding-left: 0px;
+  color: grey;
 }
 
 .email {
