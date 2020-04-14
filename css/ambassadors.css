@@ -43,3 +43,7 @@ h3 {
 .accordion h3 {
   margin-bottom: 0px;
 }
+
+.faq a {
+  color: #B6A1C4;
+}
