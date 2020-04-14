@@ -14,10 +14,20 @@ h3 {
   padding-bottom: 20px
 }
 
+.position-desc img:hover {
+  filter: brightness(1.15);
+  transition: .3s ease;
+}
+
 .apply .btn {
   background-color: #FF6B98;
   font-size: 2rem;
   margin-bottom: 10px;
+}
+
+.apply .btn:hover {
+  filter: brightness(1.2);
+  transition: .3s ease;
 }
 
 .faq {
