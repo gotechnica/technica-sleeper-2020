@@ -43,11 +43,11 @@ h3 {
 }
 
 .accordion .btn {
-  color: #B6A1C4;
-  font-weight: bold;
+  color: black;
   font-size: 1.25rem;
   white-space: normal;
   text-align: left;
+  width: 100%;
 }
 
 .accordion h3 {
