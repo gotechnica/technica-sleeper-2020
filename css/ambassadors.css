@@ -8,6 +8,7 @@ h3 {
 
 .position-desc img {
   height: 20vw;
+  min-height: 250px;
   width: 100%;
   object-fit: cover;
   padding: 20px;
