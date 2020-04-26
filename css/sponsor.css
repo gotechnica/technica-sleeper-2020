@@ -155,6 +155,17 @@ th {
   padding-left: 3px;
 }
 
+.prospectus a {
+  color: #B6A1C4;
+}
+
+.prospectus a:hover, .prospectus a:active {
+  color: #B6A1C4;
+  filter: brightness(1.2);
+  transition: .3s ease;
+  text-decoration: none;
+}
+
 .tooltip-inner {
     min-width: 200px;
     max-width: 350px;
