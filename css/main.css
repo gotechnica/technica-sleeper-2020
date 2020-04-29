@@ -130,6 +130,7 @@ h1, h2 {
 .secondary-links a {
   text-align: center;
   display: inline-block;
+  padding: 0px 5px;
 }
 
 .footer {
