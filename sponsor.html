@@ -13,46 +13,48 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.6.0/Chart.min.js"></script>
   <script src="./js/chartjs_plugin.js"></script>
   <script src="./js/tooltip.js"></script>
+  <script src="./js/navbar.js"></script>
   <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1" />
 </head>
 <body>
+
+<!-- navigation bar -->
+<nav id="navbar" class="navbar navbar-expand-lg navbar-light sticky-top">
+  <a class="navbar-brand" href="https://gotechnica.org">
+    <div class="logo"></div>
+  </a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarNav">
+    <ul class="navbar-nav text-center">
+      <li class="nav-item">
+        <a class="nav-link" href="sponsor.html">Sponsor</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="ambassadors.html">Ambassadors</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" target="_blank" href="./files/2019AnnualReport.pdf">Annual Report</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" target="_blank" href="./files/brandingGuide.pdf">Branding</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="contact.html">Contact Us</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" target="_blank" href="./files/terms.pdf">Code of Conduct</a>
+      </li>
+    </ul>
+  </div>
+</nav>
+
 <div class="container-fluid">
   <article>
 
     <!-- header -->
     <section class="header">
-
-      <!-- navigation bar -->
-      <nav class="navbar navbar-expand-lg navbar-light">
-        <a class="navbar-brand" href="https://gotechnica.org">
-          <div class="logo"></div>
-        </a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
-          <ul class="navbar-nav text-center">
-            <li class="nav-item">
-              <a class="nav-link" href="sponsor.html">Sponsor</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="ambassadors.html">Ambassadors</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" target="_blank" href="./2019AnnualReport.pdf">Annual Report</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" target="_blank" href="./brandingGuide.pdf">Branding</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="contact.html">Contact Us</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" target="_blank" href="./terms.pdf">Code of Conduct</a>
-            </li>
-          </ul>
-        </div>
-      </nav>
 
       <!-- introduction -->
       <div class="intro heading text-center">
@@ -100,7 +102,7 @@
         <p>
           Our available sponsorship tiers are listed below.
           Additionally, we are happy to state that Technica has <b>501(c)(3)</b> status.
-          Please let us know if you are interested in in becoming a part of
+          Please let us know if you are interested in becoming a part of
           Technica, or if you have any questions or concerns about the information
           below. We look forward to hearing from you!
         </p>
@@ -477,6 +479,8 @@
           </table>
         </div>
         <p class="text-center" style="color: grey">*$250 Tech + X discount for startups</p>
+        <br>
+        <p class="text-center">This information is available as a PDF <a target="_blank" href="./files/sponsorship.pdf">here</a></p>
       </div>
 
       <!-- contact -->
