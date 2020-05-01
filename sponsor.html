@@ -61,12 +61,12 @@
       <!-- letter -->
       <div class="letter" style="position: relative">
         <div class="d-none d-lg-block">
-          <img src="img/purple_sparkle.svg" style="position: absolute; width: 30px; top: -60px; left: -40px">
-          <img src="img/pink_sparkle.svg" style="position: absolute; width: 35px; top: 100px; left: -8.5%">
-          <img src="img/blue_sparkle.svg" style="position: absolute; width: 25px; bottom: -50px; left: -30px">
-          <img src="img/pink_sparkle.svg" style="position: absolute; width: 35px; top: -40px; right: 30px">
-          <img src="img/purple_sparkle.svg" style="position: absolute; width: 25px; bottom: 150px; right: -50px">
-          <img src="img/blue_sparkle.svg" style="position: absolute; width: 30px; bottom: 10px; right: 0">
+          <div class="med-spark purp-spark" style="top: -60px; left: -40px"></div>
+          <div class="large-spark pink-spark" style="top: 100px; left: -8.5%"></div>
+          <div class="small-spark blue-spark" style="bottom: -50px; left: -30px"></div>
+          <div class="large-spark pink-spark" style="top: -40px; right: 30px"></div>
+          <div class="small-spark purp-spark" style="bottom: 150px; right: -50px"></div>
+          <div class="med-spark blue-spark" style="bottom: 10px; right: 0"></div>
         </div>
         <p>Hello Potential Sponsors!</p>
         <p>
@@ -151,15 +151,19 @@
               <div class="heading d-block d-lg-none">
                 Demographics
               </div>
-              <img class="d-none d-lg-block" src="img/pink_sparkle.svg" style="position: absolute; width: 35px; top: 60px; left: -25px">
-              <img class="d-none d-lg-block" src="img/purple_sparkle.svg" style="position: absolute; width: 30px; bottom: 80px; left: -50px">
-              <img class="d-none d-lg-block" src="img/blue_sparkle.svg" style="position: absolute; width: 25px; bottom: 15px; left: 35px">
-              <img class="d-block d-lg-none" src="img/pink_sparkle.svg" style="position: absolute; width: 8%; top: 17%; left: 6%">
-              <img class="d-block d-lg-none" src="img/purple_sparkle.svg" style="position: absolute; width: 7%; bottom: 12%; left: 2%">
-              <img class="d-block d-lg-none" src="img/blue_sparkle.svg" style="position: absolute; width: 6%; bottom: 2%; left: 20%">
-              <img class="d-block d-lg-none" src="img/purple_sparkle.svg" style="position: absolute; width: 8%; top: 17%; right: 6%">
-              <img class="d-block d-lg-none" src="img/pink_sparkle.svg" style="position: absolute; width: 6%; top: 28%; right: -1%">
-              <img class="d-block d-lg-none" src="img/blue_sparkle.svg" style="position: absolute; width: 7%; bottom: 10%; right: 2%">
+              <div class="d-none d-lg-block">
+                <div class="large-spark pink-spark" style="top: 60px; left: -25px"></div>
+                <div class="med-spark purp-spark" style="bottom: 80px; left: -50px"></div>
+                <div class="small-spark blue-spark" style="bottom: 15px; left: 35px"></div>
+              </div>
+              <div class="d-block d-lg-none">
+                <div class="pink-spark" style="height: 8%; width: 8%; top: 17%; left: 6%"></div>
+                <div class="purp-spark" style="height: 7%; width: 7%; bottom: 12%; left: 2%"></div>
+                <div class="blue-spark" style="height: 6%; width: 6%; bottom: 2%; left: 20%"></div>
+                <div class="purp-spark" style="height: 8%; width: 8%; top: 17%; right: 6%"></div>
+                <div class="pink-spark" style="height: 6%; width: 6%; top: 28%; right: -1%"></div>
+                <div class="blue-spark" style="height: 7%; width: 7%; bottom: 10%; right: 2%"></div>
+              </div>
               <canvas id="edulevels" aria-label="Educational Level Breakdown Chart" role="img"></canvas>
             </div>
             <div class="col-lg-7">
