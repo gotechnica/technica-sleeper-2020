@@ -122,6 +122,15 @@ h1, h2 {
   color: white;
 }
 
+.secondary-links {
+  display: flex;
+  justify-content: center;
+}
+
+.secondary-links a {
+  padding: 0px 5px;
+}
+
 .footer {
   height: 50px;
   line-height: 50px;
