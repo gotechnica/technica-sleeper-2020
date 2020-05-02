@@ -156,6 +156,39 @@ h1, h2 {
   transition: .3s ease;
 }
 
+.small-spark {
+  width: 25px;
+  height: 25px;
+}
+
+.med-spark {
+  width: 30px;
+  height: 30px;
+}
+
+.large-spark {
+  width: 35px;
+  height: 35px;
+}
+
+.purp-spark {
+    background-image: url(../img/purple_sparkle.svg);
+    background-repeat: no-repeat;
+    position: absolute;
+}
+
+.pink-spark {
+    background-image: url(../img/pink_sparkle.svg);
+    background-repeat: no-repeat;
+    position: absolute;
+}
+
+.blue-spark {
+    background-image: url(../img/blue_sparkle.svg);
+    background-repeat: no-repeat;
+    position: absolute;
+}
+
 /* navbar collapses */
 @media only screen and (max-width: 991px) {
   .navbar-toggler  {
