@@ -1,0 +1,70 @@
+button {
+  text-align: center;
+  color: white;
+  border: none;
+  background-color: #FF6B98;
+  align-items: center;
+  padding: 7px 32px;
+  font-size: 25px;
+  font-weight: bold;
+  border-radius: 6px;
+}
+
+.b1 {
+  padding-bottom: 40px;
+  padding-top: 20px;
+}
+
+h1 {
+  color: rgb(255, 107, 152)
+}
+
+h2 {
+  text-align: center;
+  font-size: 40px;
+}
+
+.curved {
+  background-color: #ECE3F2;
+  border-radius: 50% 50% 0 0 / 100% 100% 0 0;
+  padding-top: 70px;
+}
+
+.donate-header{
+  padding-top: 50px;
+  padding-bottom: 20px;
+  font-size:10px;
+}
+
+.donate-story{
+  background-color:#ECE3F2;
+  padding-top: 20px;
+}
+
+.story-image {
+  padding-right: 50px;
+  padding-bottom: 50px;
+}
+
+.donate-promise {
+  background-color: #E4D7ED;
+}
+
+.promise-header {
+  padding-top: 50px;
+  position: relative;
+}
+
+.promise-image {
+  padding-bottom: 50px;
+}
+
+.center-block {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  width: 100%;
+  height: auto;
+  left: 783px;
+ }
