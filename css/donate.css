@@ -9,50 +9,51 @@ button {
   font-weight: bold;
 }
 
-h2 {
-  text-align: center;
-  font-size: 40px;
-}
-
-.donate-story{
-  background-color: rgb(230,230,250);
-}
-
-.story-header {
-  padding-top: 50px;
-  padding-left: 50px;
-}
-.story-body {
-  padding-left: 50px;
-}
-.story-body2 {
-  padding-right: 50px;
-}
-
-.donate-promise {
-  background-color: rgb(216,191,216);
+.b1 {
+  padding-bottom: 40px;
+  padding-top: 20px;
 }
 
 h1 {
   color: rgb(255, 107, 152)
 }
+
+h2 {
+  text-align: center;
+  font-size: 40px;
+}
+
 .donate-header{
   padding-top: 50px;
   font-size:10px;
 }
 
+.donate-story{
+  background-color:#ECE3F2;
+}
+
+.story-header {
+  padding-top: 50px;
+}
+
+.story-image {
+  padding-right: 50px;
+  padding-bottom: 50px;
+}
+
+.donate-promise {
+  background-color: #E4D7ED;
+}
+
 .promise-header {
-  padding-top: 10px;
+  padding-top: 50px;
   padding-right: 50px;
   text-align:right;
   position: relative;
 }
 
-.logo {
-  background: linear-gradient(90deg, #00FFFF 0%, #AA96CA 46.35%, #FF6B98 100%);
-  width: 50px;
-  height: 50px;
-  border-radius: 50px;
+.promise-image {
+  padding-bottom: 50px;
 }
 
 .center-block {
@@ -62,20 +63,5 @@ h1 {
   display: block;
   width: 100%;
   height: auto;
+  left: 783px;
  }
-
-.b1 {
-  padding-bottom: 40px;
-  padding-top: 20px;
-}
-
-.promise-image {
-  padding-left: 50px;
-  padding-right: 10px;
-  padding-bottom: 10px;
-}
-
-.story-image {
-  padding-right: 50px;
-  padding-bottom: 10px;
-}
