@@ -1,6 +1,6 @@
 .donate-button {
   text-align: center;
-  color: white;
+  color: #FFF;
   border: none;
   background-color: #FF6B98;
   align-items: center;
@@ -13,7 +13,7 @@
 .donate-button:hover {
     opacity: 75%;
     text-decoration: none;
-    color: white;
+    color: #FFF;
     transition: .3s ease;
 }
 
@@ -91,6 +91,7 @@ h2 {
     background: #FFFFFF;
     border: 6px solid #1CD5D5;
     padding: 3%;
+    padding-top: 5%;
     text-align: center;
     width: 100%;
     height: 100%;
@@ -98,12 +99,14 @@ h2 {
 
 .donate-option1-header {
     color: #1CD5D5;
+    font-size: 300%;
 }
 
 .donate-option2 {
     background: #FFFFFF;
     border: 6px solid #B6A1C4;
     padding: 3%;
+    padding-top: 5%;
     text-align: center;
     width: 100%;
     height: 100%;
@@ -111,12 +114,14 @@ h2 {
 
 .donate-option2-header {
     color: #B6A1C4;
+    font-size: 300%;
 }
 
 .donate-option3 {
     background: #FFFFFF;
     border: 6px solid #FF6B98;
     padding: 3%;
+    padding-top: 5%;
     text-align: center;
     width: 100%;
     height: 100%;
@@ -124,16 +129,47 @@ h2 {
 
 .donate-option3-header {
     color: #FF6B98;
+    font-size: 300%;
 }
 
 .donate-questions {
     background-color: #E4D7ED;
     padding-top: 3%;
-    padding-bottom: 3%;
+    padding-bottom: 0.5%;
 }
 
 #email-link-donate:hover {
     opacity: 75%;
     text-decoration: none;
     transition: .3s ease;
+}
+
+.social, .secondary-links {
+    background-color: #E4D7ED;
+    padding-bottom: 0.1%;
+}
+
+.social {
+    padding-bottom: 0.1%;
+}
+
+.nav-link:hover {
+    opacity: 75%;
+    transition: .3s ease;
+}
+
+/* mobile */
+@media only screen and (max-width: 575px) {
+    .story-header, .promise-header {
+        text-align: center;
+    }
+    .promise-image {
+        padding-bottom: 4%;
+    }
+    .donate-impact {
+        padding: 7%;
+    }
+    .donate-questions {
+        padding-top: 5%;
+    }
 }
