@@ -1,4 +1,4 @@
-button {
+.donate-button {
   text-align: center;
   color: white;
   border: none;
@@ -8,6 +8,13 @@ button {
   font-size: 25px;
   font-weight: bold;
   border-radius: 6px;
+}
+
+.donate-button:hover {
+    opacity: 75%;
+    text-decoration: none;
+    color: white;
+    transition: .3s ease;
 }
 
 .b1 {
@@ -30,13 +37,13 @@ h2 {
   padding-top: 70px;
 }
 
-.donate-header{
+.donate-header {
   padding-top: 50px;
   padding-bottom: 20px;
   font-size:10px;
 }
 
-.donate-story{
+.donate-story {
   background-color:#ECE3F2;
   padding-top: 20px;
 }
@@ -67,4 +74,66 @@ h2 {
   width: 100%;
   height: auto;
   left: 783px;
- }
+}
+
+.donate-impact {
+    background-color:#ECE3F2;
+    padding-top: 3%;
+    padding-bottom: 3%;
+}
+
+.impact-header {
+    text-align: center;
+    padding-bottom: 1%
+}
+
+.donate-option1 {
+    background: #FFFFFF;
+    border: 6px solid #1CD5D5;
+    padding: 3%;
+    text-align: center;
+    width: 100%;
+    height: 100%;
+}
+
+.donate-option1-header {
+    color: #1CD5D5;
+}
+
+.donate-option2 {
+    background: #FFFFFF;
+    border: 6px solid #B6A1C4;
+    padding: 3%;
+    text-align: center;
+    width: 100%;
+    height: 100%;
+}
+
+.donate-option2-header {
+    color: #B6A1C4;
+}
+
+.donate-option3 {
+    background: #FFFFFF;
+    border: 6px solid #FF6B98;
+    padding: 3%;
+    text-align: center;
+    width: 100%;
+    height: 100%;
+}
+
+.donate-option3-header {
+    color: #FF6B98;
+}
+
+.donate-questions {
+    background-color: #E4D7ED;
+    padding-top: 3%;
+    padding-bottom: 3%;
+}
+
+#email-link-donate:hover {
+    opacity: 75%;
+    text-decoration: none;
+    transition: .3s ease;
+}
