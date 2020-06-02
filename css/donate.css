@@ -172,4 +172,7 @@ h2 {
     .donate-questions {
         padding-top: 5%;
     }
+    .col-sm {
+        padding-bottom: 5%;
+    }
 }
