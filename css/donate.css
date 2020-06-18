@@ -170,6 +170,12 @@ h2 {
     transition: .3s ease;
 }
 
+@media only screen and (min-width: 1200px) {
+  .promise-image img {
+    max-height: 260px;
+  }
+}
+
 /* mobile */
 @media only screen and (max-width: 575px) {
     .story-header {
