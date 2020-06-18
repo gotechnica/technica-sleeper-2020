@@ -45,7 +45,8 @@ h2 {
 
 .donate-story {
   background-color:#ECE3F2;
-  padding-top: 20px;
+  padding-top: 3%;
+  padding-bottom: 3%;
 }
 
 .story-header{
@@ -54,11 +55,12 @@ h2 {
 
 .story-image {
   padding-bottom: 20px;
-  display: flex;
 }
 
 .donate-promise {
   background-color: #E4D7ED;
+  padding-top: 3%;
+  padding-bottom: 3%;
 }
 
 .our-donor {
@@ -69,7 +71,6 @@ h2 {
   padding-top: 20px;
   padding-bottom: 20px;
   width: 100%;
-  display: flex;
 }
 
 .center-block {
