@@ -16,6 +16,11 @@ h1, h2 {
   border-radius: 50px;
 }
 
+.navbar-brand {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
 .navbar-toggler {
   border: none;
 }
