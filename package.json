@@ -16,5 +16,7 @@
     "url": "https://github.com/gotechnica/technica-sleeper-2020/issues"
   },
   "homepage": "https://github.com/gotechnica/technica-sleeper-2020#readme",
-  "dependencies": {}
+  "dependencies": {
+    "patternomaly": "^1.3.2"
+  }
 }

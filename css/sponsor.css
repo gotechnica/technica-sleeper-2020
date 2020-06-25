@@ -4,11 +4,11 @@
 
 .info-input {
   padding: 10px;
-  background-color: #FF6B98;
+  background-color: #FF5789;
 }
 
 .inquiry-box {
-  border: 3px solid #FF6B98;
+  border: 3px solid #FF5789;
 }
 
 .form-control {
@@ -18,7 +18,7 @@
 
 .inquiry-btn {
   border-radius: 0;
-  background-color: #FF6B98;
+  background-color: #FF5789;
 }
 
 .inquiry-btn:hover {
@@ -34,7 +34,7 @@
   font-size: 4.3rem;
   font-weight: bold;
   line-height: 1;
-  color: #B6A1C4;
+  color: #A88AA8;
 }
 
 .stat-text {
@@ -46,7 +46,7 @@
   height: 100%;
   width: 100%;
   object-fit: cover;
-  box-shadow: -2rem 0rem 0 -20px #B6A1C4, 0.75rem -.75rem #FF7BAC;
+  box-shadow: -2rem 0rem 0 -20px #A88AA8, 0.75rem -.75rem #FF7BAC;
 }
 
 .demographics {
@@ -56,9 +56,30 @@
 
 .demographics .heading {
   font-size: 2.5rem;
-  color: #B6A1C4;
+  color: #A88AA8;
   margin-bottom: 10px;
   margin-left: -15px;
+}
+
+.custom-control {
+  margin-top: 5px;
+  margin-bottom: 10px;
+}
+
+.custom-control-label {
+  position: relative
+}
+
+.custom-control-label::before {
+  position: relative;
+  display: inline-block;
+  margin-bottom: 1px;
+  margin-right: 5px;
+}
+
+.custom-control-label::after {
+  position: absolute;
+  display: inline-block;
 }
 
 .demo-section {
@@ -138,7 +159,7 @@ th {
 }
 
 .recruit {
-  background: #B6A1C4;
+  background: #A88AA8;
 }
 
 .brand {
@@ -156,11 +177,11 @@ th {
 }
 
 .prospectus a {
-  color: #B6A1C4;
+  color: #A88AA8;
 }
 
 .prospectus a:hover, .prospectus a:active {
-  color: #B6A1C4;
+  color: #A88AA8;
   filter: brightness(1.2);
   transition: .3s ease;
   text-decoration: none;
@@ -176,7 +197,7 @@ th {
 }
 
 #thank-you {
-  background-color: #FF6B98;
+  background-color: #FF5789;
   padding: 10px;
 }
 
@@ -356,7 +377,7 @@ th {
   }
 
   .overall-stats img {
-    box-shadow: -1.8rem 0rem 0 -20px #B6A1C4, 0.5rem -.5rem #FF7BAC;
+    box-shadow: -1.8rem 0rem 0 -20px #A88AA8, 0.5rem -.5rem #FF7BAC;
   }
 
   .stat-number {

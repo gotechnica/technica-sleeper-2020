@@ -2,7 +2,7 @@
   text-align: center;
   color: #FFF;
   border: none;
-  background-color: #FF6B98;
+  background-color: #FF5789;
   align-items: center;
   padding: 7px 35px;
   font-size: 35px;
@@ -116,7 +116,7 @@ h2 {
 
 .donate-option2 {
     background: #FFFFFF;
-    border: 6px solid #B6A1C4;
+    border: 6px solid #A88AA8;
     padding: 3%;
     padding-top: 5%;
     text-align: center;
@@ -125,13 +125,13 @@ h2 {
 }
 
 .donate-option2-header {
-    color: #B6A1C4;
+    color: #A88AA8;
     font-size: 300%;
 }
 
 .donate-option3 {
     background: #FFFFFF;
-    border: 6px solid #FF6B98;
+    border: 6px solid #FF5789;
     padding: 3%;
     padding-top: 5%;
     text-align: center;
@@ -140,7 +140,7 @@ h2 {
 }
 
 .donate-option3-header {
-    color: #FF6B98;
+    color: #FF5789;
     font-size: 300%;
 }
 
