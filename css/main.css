@@ -249,6 +249,12 @@ h1, h2 {
   }
 }
 
+@media only screen and (max-height: 700px) {
+  .contact-footer {
+    position: relative;
+  }
+}
+
 .email-form-post-submit {
   padding-left: 30px;
   padding-right: 30px;
